@@ -2,7 +2,7 @@
 
 ## About
 
-最近公司业务有相关全景需求，对全景效果进行了相关调研，发现了两个相关库，纪录以做备忘
+最近公司业务有相关全景需求，对全景效果进行了相关调研，发现了一些相关库，纪录以做备忘
 
 ## Pannellum 全景浏览器 
 
@@ -17,3 +17,5 @@
 ### git地址 https://github.com/mrdoob/three.js
 
 ### 相关学习资源 learning-threejs https://github.com/josdirksen/learning-threejs
+
+### 其他相关 参考网站  https://my.matterport.com/show/?m=GWkrkzXRboS&utm_source=4
