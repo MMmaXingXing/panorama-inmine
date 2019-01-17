@@ -1,0 +1,64 @@
+﻿{
+    "default": {
+        "author": "Matthew Petroff",
+        "firstScene": "pond",
+        "sceneFadeDuration": 2000,
+        "autoLoad":true
+    },
+    
+    "scenes": {
+        "pondCube": {
+            "title": "Jordan Pond (Cube)",
+            "panorama": "./examplepano.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -12,
+                    "yaw": 170,
+                    "type": "info",
+                    "text": "This is Jordan Pond, located in Acadia National Park."
+                },
+                {
+                    "pitch": -10,
+                    "yaw": -50,
+                    "type": "info",
+                    "text": "This is a link.",
+                    "URL": "https://www.baidu.com"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": -60,
+                    "type": "scene",
+                    "text": "Pond",
+                    "sceneId": "newCub"
+                }
+            ]
+        },
+        "newCub":{
+            "title": "newCub pond",
+            "panorama": "./image/2294472375_24a3b8ef46_o.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 100,
+                    "type": "scene",
+                    "text": "Pond (cube)",
+                    "sceneId": "pondCube"
+                }
+            ]
+        },
+
+        "pond": {
+            "title": "Jordan Pond",
+            "panorama": "./image/20190116154556.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 100,
+                    "type": "scene",
+                    "text": "Pond (cube)",
+                    "sceneId": "pondCube"
+                }
+            ]
+        }
+    }
+}
