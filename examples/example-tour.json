@@ -49,11 +49,12 @@
 
         "pond": {
             "title": "Jordan Pond",
+            "type":"equirectangular",
             "panorama": "./image/20190116154556.jpg",
             "hotSpots": [
                 {
                     "pitch": 0,
-                    "yaw": 100,
+                    "yaw": 0,
                     "type": "scene",
                     "text": "Pond (cube)",
                     "sceneId": "pondCube"
