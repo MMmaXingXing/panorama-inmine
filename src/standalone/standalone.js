@@ -56,10 +56,10 @@ function parseURLParameters() {
         request.onload = function() {
             if (request.status != 200) {
                 // Display error if JSON can't be loaded
-                var a = document.createElement('a');
-                a.href = configFromURL.config;
-                a.textContent = a.href;
-                anError('The file ' + a.outerHTML + ' could not be accessed.');
+                //var a = document.createElement('a');
+                //a.href = configFromURL.config;
+                //a.textContent = a.href;
+                //anError('The file ' + a.outerHTML + ' could not be accessed.');
                 return;
             }
 

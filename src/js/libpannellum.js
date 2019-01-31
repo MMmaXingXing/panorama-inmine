@@ -32,7 +32,7 @@ window.libpannellum = (function(window, document, undefined) {
  */
 function Renderer(container) {
     var canvas = document.createElement('canvas');
-    canvas.style.width = canvas.style.height = '100%';
+    canvas.style.width = canvas.style.height = '101%';
     container.appendChild(canvas);
 
     var program, gl, vs, fs;
